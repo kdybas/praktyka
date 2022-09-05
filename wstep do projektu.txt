@@ -1,0 +1,23 @@
+ WSTĘP DO PISANIA KODU:
+1. Napisanie szkieletu strony i połączenie go z plikiem css***
+2. podzielenie na bloki (głowny, menu, podstrony)***
+3. pozycjonowanie bloków menu i podstron w bloku głównym ---
+4. ustawienie strony wizualnej bloków (menu, podstrony oraz głównego)
+
+ TWORZENIE MENU:
+ 5. stworzenie szkieletu menu
+ 6. stworzenie paska w kolorze szarym oraz danej szerokości i długości
+ 7. dodanie kropek do paska
+ 8. stworzenie kodu pokazującego ilość kropek zależną od ilosci elementow listy
+ 9. przkierowywanie do podstron poprzez naciśnięcie kropki
+  tworzenie szkieletu menu ze strony wizualnej;
+ 	10. zmienianie koloru paska w zależności od wciśnietej w danym momencie kropki
+ . tworzenie kropek ze strony wizualnej:
+ 	11 stworzenie wyglądu kropek gdy nie są kliknięte (szare, niezamalowane)
+ 	12. stworzenie wyglądu kropek gdy są kliknięte (niebieskie, wypełnione, powiększone)
+ 	13. stworzenie wyglądu kropek gdy nestępna jest kliknięta (niebieskie, wypełnione, z obramówką)
+
+  TWORZENIE SZKIELETU PODSTRON:
+ 14. tworzenie kodu pokazującego ilość bloków zależną od wartości 'y'
+ 15. ustawienie odpowiedniego pozycjonowania bloków
+ 16. stworzenie strony wizualnej bloków
