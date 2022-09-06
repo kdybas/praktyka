@@ -1,0 +1,140 @@
+
+.glowny {background-color: silver;
+		color:black;
+		height:727px;
+		width:100%;		
+		z-index:1;
+}
+		
+.menu 	{height:100px;
+		width: 90%;
+		background-color: #33691E;
+		display: flex;
+		justify-content:center;
+		margin: 0 auto;
+		align-items:center;
+		z-index:1;
+
+	
+		
+}
+/*    */
+.tresc 	{height:200px;
+		width: 90%;
+		background-color:#99CCFF;
+		display: flex;
+		justify-content:center;
+		margin: 0 auto;
+		align-items:center;
+		z-index:1;
+		}
+		
+.liniamenu {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 3px solid #B5B5B5;
+  padding-top: 15px;
+  margin-top: 26px;
+
+}
+
+
+.active{
+  background-color: #fff !important;
+}
+
+.liniamenu div {
+  background-color: white;
+  border: 2px solid #B5B5B5;
+  margin-top: -27px;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 99;
+  left: calc(50% - 5px);
+  
+
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
