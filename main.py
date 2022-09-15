@@ -1,13 +1,14 @@
 import re
 
 def choices():
-    choice = int(input("For Sign In type 1 and for Register type 2: "))
-    if choice == 1:
+
+    choice = str(input("For Sign In type 1 and for Register type 2: "))
+    if choice == "1":
         return signin()
-    elif choice == 2:
+    elif choice == "2":
         return register()
     else:
-        print("Bad number, type 1 or 2.\n")
+        print("Bad, type 1 or 2.\n")
         return choices()
 
 
@@ -42,6 +43,9 @@ def register():
     if name in info:
         return "Name Unavailable. Please Try Again"
     invalid = True
+    if len(name) < 8:
+        print('Name does meet the minimum length requirements of 8 characters.')
+        invalid = False
     if len(password) < 8:
         print('Password does meet the minimum length requirements of 8 characters.')
         invalid = False
@@ -64,36 +68,25 @@ def register():
         f.write(info)
         print("Your account is created! You can Log in now!")
     if invalid == False:
-        return("Password is not valid. PLease try again.")
         return register()
 
-def iscorrect():
-    invalid = True
-    symbols = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')']
-
-    if len(password) < 8:
-        print('Password does meet the minimum length requirements of 8 characters.')
-        invalid = False
-
-    if len(password) > 15:
-        print('Password should not exceed 15 characters.')
-        invalid = False
-    if not any(char.islower() for char in password):
-        print('Password should have at least one lowercase letter.')
-        invalid = False
-
-    if not any(char.isupper() for char in password):
-        print('Password should have at least one uppercase letter.')
-        invalid = False
-    if not any(char.isdigit() for char in password):
-        print('Password should have at least one number.')
-        invalid = False
-
-    if not any(char in symbols for char in password):
-        print('Password should have at least one of the symbols: !@#$%^&*() ')
-        invalid = False
-    if invalid:
-        return invalid
- 
 print(choices())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
